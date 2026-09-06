@@ -79,8 +79,8 @@ mall_crowd_management/
 ## Installation
 
 ```bash
-git clone <this-repo-url>
-cd mall_crowd_management
+git clone https://github.com/muhammed-arshad-pk/mall-crowd-management.git
+cd mall-crowd-management
 
 python -m venv venv
 venv\Scripts\activate        # Windows
