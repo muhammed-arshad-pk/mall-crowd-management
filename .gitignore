@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Runtime data - regenerated on first run, never shipped
+data/database/*.db
+data/database/*.db-journal
+data/database/*.db-wal
+data/database/*.db-shm
+data/daily_records/
+data/exports/
+logs/*.log
+snapshots/*.jpg
+
+# Frontend
+webapp/frontend/node_modules/
+# webapp/static/ (build output) is intentionally NOT ignored - it's
+# committed so the dashboard runs out of the box without a Node toolchain.
+# Edit webapp/frontend/src/ and run `npm run build` there to update it.
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
