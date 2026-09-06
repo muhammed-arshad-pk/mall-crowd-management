@@ -174,7 +174,7 @@ npm run build   # rebuilds webapp/static/ - commit it too
 
 ## Limitations / roadmap
 
-- No historical graph, CSV export, or capacity alerts yet (Stage 6).
+- No historical graph, CSV export, or capacity alerts yet.
 - Single camera only — DB schema already carries `camera_id` for future multi-camera support.
 - No face/identity recognition by design — anonymous tracking IDs only.
 
